@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1abb7fd-f454-4763-86a5-566820677699" name="Default Changelist" comment="" />
+    <list default="true" id="e1abb7fd-f454-4763-86a5-566820677699" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TesteCalculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CalculadoraDeSalario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CalculadoraDeSalario.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,10 +26,11 @@
       <FILTER>main.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Aula_TU$TesteTriangulo_testarVerificaTrianguloEquilateroTipo1.ic" NAME="TesteTriangulo.testarVerificaTrianguloEquilateroTipo1 Coverage Results" MODIFIED="1568672633391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Aula_TU$TesteCalculadora.ic" NAME="TesteCalculadora Coverage Results" MODIFIED="1569021795462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Aula_TU$TesteTriangulo.ic" NAME="TesteTriangulo Coverage Results" MODIFIED="1568677531493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="196" />
+    <option name="myElementSize" value="195" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -56,19 +61,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Triangulo.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TesteCalculadora.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+            <state relative-caret-position="331">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TesteTriangulo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Funcionario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-138">
-              <caret line="56" column="60" lean-forward="true" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="60" />
+            <state relative-caret-position="57">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CalculadoraDeSalario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -78,8 +95,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -100,7 +117,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/src/main/java/Triangulo.java" />
         <option value="$PROJECT_DIR$/src/test/java/TrianguloTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CalculadoraDeSalario.java" />
         <option value="$PROJECT_DIR$/src/main/java/Funcionario.java" />
         <option value="$PROJECT_DIR$/src/main/java/Cargo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -109,8 +125,10 @@
         <option value="$PROJECT_DIR$/Aula1_checks.xml" />
         <option value="$PROJECT_DIR$/cotemigChecks.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Principal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Triangulo.java" />
         <option value="$PROJECT_DIR$/src/test/java/TesteTriangulo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Triangulo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CalculadoraDeSalario.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TesteCalculadora.java" />
       </list>
     </option>
   </component>
@@ -137,11 +155,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="734" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -163,6 +180,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Aula_TU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aula_TU" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Aula_TU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aula_TU" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Aula_TU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aula_TU" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Aula_TU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aula_TU" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -205,41 +251,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Aula_TU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aula_TU" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Aula_TU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aula_TU" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Aula_TU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aula_TU" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Aula_TU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aula_TU" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568677748330" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569021816172" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -270,23 +287,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TesteTriangulo">
-    <configuration name="TesteTriangulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aulatu" />
+  <component name="RunManager" selected="JUnit.TesteCalculadora">
+    <configuration name="TesteCalculadora" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aula_TU" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TesteTriangulo" />
+      <option name="MAIN_CLASS_NAME" value="TesteCalculadora" />
       <option name="METHOD_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteTriangulo.testarVerificaExistenciaTriangulo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Aula_TU" />
+    <configuration name="TesteTriangulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aulatu" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TesteTriangulo" />
-      <option name="METHOD_NAME" value="testarVerificaExistenciaTriangulo1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -339,16 +355,16 @@
       <item itemvalue="JUnit.TesteTriangulo" />
       <item itemvalue="JUnit.TesteTriangulo.testarVerificaTrianguloEscalenoTipo1" />
       <item itemvalue="JUnit.TesteTriangulo.testarVerificaExistenciaTriangulo2" />
-      <item itemvalue="JUnit.TesteTriangulo.testarVerificaExistenciaTriangulo1" />
       <item itemvalue="JUnit.TesteTriangulo.testarVerificaExistenciaTrianguloSemParametro" />
+      <item itemvalue="JUnit.TesteCalculadora" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TesteCalculadora" />
         <item itemvalue="JUnit.TesteTriangulo" />
         <item itemvalue="JUnit.TesteTriangulo.testarVerificaExistenciaTrianguloSemParametro" />
         <item itemvalue="JUnit.TesteTriangulo.testarVerificaExistenciaTriangulo2" />
         <item itemvalue="JUnit.TesteTriangulo.testarVerificaTrianguloEscalenoTipo1" />
-        <item itemvalue="JUnit.TesteTriangulo.testarVerificaExistenciaTriangulo1" />
       </list>
     </recent_temporary>
   </component>
@@ -377,50 +393,52 @@
       <workItem from="1568412897182" duration="752000" />
       <workItem from="1568414201219" duration="671000" />
       <workItem from="1568415030821" duration="811000" />
-      <workItem from="1568671749012" duration="6278000" />
+      <workItem from="1568671749012" duration="6381000" />
+      <workItem from="1569017583655" duration="1226000" />
+      <workItem from="1569019941333" duration="1688000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TesteTriangulo - 2019.09.16 at 20h 20m 56s.xml">
-      <configuration name="TesteTriangulo" configurationId="JUnit" />
+    <history-entry file="TesteCalculadora - 2019.09.20 at 20h 04m 28s.xml">
+      <configuration name="TesteCalculadora" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteTriangulo - 2019.09.16 at 20h 24m 11s.xml">
-      <configuration name="TesteTriangulo" configurationId="JUnit" />
+    <history-entry file="TesteCalculadora - 2019.09.20 at 20h 08m 40s.xml">
+      <configuration name="TesteCalculadora" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteTriangulo - 2019.09.16 at 20h 32m 36s.xml">
-      <configuration name="TesteTriangulo" configurationId="JUnit" />
+    <history-entry file="TesteCalculadora - 2019.09.20 at 20h 09m 01s.xml">
+      <configuration name="TesteCalculadora" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteTriangulo - 2019.09.16 at 20h 34m 38s.xml">
-      <configuration name="TesteTriangulo" configurationId="JUnit" />
+    <history-entry file="TesteCalculadora - 2019.09.20 at 20h 10m 16s.xml">
+      <configuration name="TesteCalculadora" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteTriangulo - 2019.09.16 at 20h 35m 32s.xml">
-      <configuration name="TesteTriangulo" configurationId="JUnit" />
+    <history-entry file="TesteCalculadora - 2019.09.20 at 20h 13m 03s.xml">
+      <configuration name="TesteCalculadora" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteTriangulo - 2019.09.16 at 20h 38m 00s.xml">
-      <configuration name="TesteTriangulo" configurationId="JUnit" />
+    <history-entry file="TesteCalculadora - 2019.09.20 at 20h 16m 22s.xml">
+      <configuration name="TesteCalculadora" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteTriangulo - 2019.09.16 at 20h 41m 03s.xml">
-      <configuration name="TesteTriangulo" configurationId="JUnit" />
+    <history-entry file="TesteCalculadora - 2019.09.20 at 20h 16m 51s.xml">
+      <configuration name="TesteCalculadora" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteTriangulo - 2019.09.16 at 20h 41m 54s.xml">
-      <configuration name="TesteTriangulo" configurationId="JUnit" />
+    <history-entry file="TesteCalculadora - 2019.09.20 at 20h 19m 21s.xml">
+      <configuration name="TesteCalculadora" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteTriangulo - 2019.09.16 at 20h 42m 11s.xml">
-      <configuration name="TesteTriangulo" configurationId="JUnit" />
+    <history-entry file="TesteCalculadora - 2019.09.20 at 20h 21m 38s.xml">
+      <configuration name="TesteCalculadora" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteTriangulo - 2019.09.16 at 20h 45m 36s.xml">
-      <configuration name="TesteTriangulo" configurationId="JUnit" />
+    <history-entry file="TesteCalculadora - 2019.09.20 at 20h 23m 19s.xml">
+      <configuration name="TesteCalculadora" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27960000" />
+    <option name="totallyTimeSpent" value="30977000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="886" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3116046" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15616046" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -430,7 +448,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.32934928" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997344" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -506,6 +524,12 @@
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TesteCalculadora.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -537,13 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Funcionario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
@@ -559,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TesteCalculadoraSalario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Principal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -573,10 +583,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CalculadoraDeSalario.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TesteTriangulo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="54" />
+        <state relative-caret-position="918">
+          <caret line="56" column="60" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Triangulo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TesteCalculadoraSalario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -590,17 +617,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TesteTriangulo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/CalculadoraDeSalario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138">
-          <caret line="56" column="60" lean-forward="true" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="60" />
+        <state relative-caret-position="321">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Triangulo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Funcionario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        <state relative-caret-position="57">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TesteCalculadora.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

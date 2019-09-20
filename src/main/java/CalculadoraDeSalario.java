@@ -10,7 +10,7 @@ public class CalculadoraDeSalario
     {
       return quinzeOuVinteCincoPorCentoDeDesconto(funcionario);
     }
-    throw new RuntimeException("Funcionario invalido");
+    throw new RuntimeException("Funcionário inválido");
   }
 
   private static double quinzeOuVinteCincoPorCentoDeDesconto(Funcionario funcionario)
