@@ -6,7 +6,7 @@ public class CalculadoraDeSalario
     {
       return dezOuVintePorCentoDeDesconto(funcionario);
     } else if (funcionario.getCargo().equals(Cargo.DBA) ||
-        funcionario.getCargo().equals(Cargo.TESTADOR))
+        funcionario.getCargo().equals(Cargo.TESTADOR) || funcionario.getCargo().equals(Cargo.ARQUITETO_SISTEMA))
     {
       return quinzeOuVinteCincoPorCentoDeDesconto(funcionario);
     }

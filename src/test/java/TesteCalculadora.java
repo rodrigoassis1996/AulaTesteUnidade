@@ -37,4 +37,16 @@ public class TesteCalculadora {
         Funcionario func = new Funcionario("Renan", 2600, Cargo.DBA);
         assertEquals(CalculadoraDeSalario.calculaSalario(func), 1950, 0);
     }
+
+    @Test
+    public void testarCalcularSalarioParaArquitetosComSalarioAbaixoDoLimite(){
+        Funcionario func = new Funcionario("Renata", 2000, Cargo.DBA);
+        assertEquals(CalculadoraDeSalario.calculaSalario(func), 1700, 0);
+    }
+
+    @Test
+    public void testarCalcularSalarioParaArquitetosComSalarioAcimaDoLimite(){
+        Funcionario func = new Funcionario("Renan", 2600, Cargo.DBA);
+        assertEquals(CalculadoraDeSalario.calculaSalario(func), 1950, 0);
+    }
 }
